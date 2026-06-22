@@ -1,0 +1,5 @@
+
+> treehouse-sonnet-frontend@1.0.0 dev
+> vite --port=5174 --host=0.0.0.0 --no-open --base=/preview/frontend/
+
+sh: 1: vite: not found

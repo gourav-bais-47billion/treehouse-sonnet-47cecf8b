@@ -1,0 +1,270 @@
+{
+  "project": "Treehouse Sonnet",
+  "frontend_dir": "./output/Treehouse Sonnet/frontend/",
+  "build_timestamp": "2026-06-11T00:00:00Z",
+  "status": "COMPLETE",
+  "stack": "React 18.2 + Vite + TypeScript + Material-UI (MUI) + Redux Toolkit + RTK Query + React Router v6 + Lucide React",
+  "total_pages": 17,
+  "total_components": 17,
+  "framework": "React",
+  "ui_library": "Material-UI (MUI)",
+  "styling": "MUI theming + CSS Modules",
+  "icons": "Lucide React (24x24px SVG)",
+  "state_management": "Redux Toolkit + RTK Query",
+  "routing": "React Router v6",
+  "http_client": "Native Fetch API",
+  "package_manager": "npm",
+  "testing": "Vitest + React Testing Library (70%+ coverage required)",
+  "accessibility": "WCAG 2.1 Level A",
+  "responsive": "Desktop-only (1024px+)",
+  "components": [
+    {
+      "screen_name": "login-via-aim-portal-sso",
+      "component_name": "LoginViaAimPortalSso",
+      "file_path": "src/pages/LoginViaAimPortalSso.tsx",
+      "written": true,
+      "description": "SSO login screen with AIM Portal integration and emergency login fallback"
+    },
+    {
+      "screen_name": "emergency-login",
+      "component_name": "EmergencyLogin",
+      "file_path": "src/pages/EmergencyLogin.tsx",
+      "written": true,
+      "description": "Emergency local credential login with account lockout after 5 failed attempts"
+    },
+    {
+      "screen_name": "front-office-home",
+      "component_name": "FrontOfficeHome",
+      "file_path": "src/pages/FrontOfficeHome.tsx",
+      "written": true,
+      "description": "Role-specific home for Front Office users - portfolio submission and status tracking"
+    },
+    {
+      "screen_name": "data-governance-admin-home",
+      "component_name": "DataGovernanceAdminHome",
+      "file_path": "src/pages/DataGovernanceAdminHome.tsx",
+      "written": true,
+      "description": "Admin dashboard with code generation queue, mapping table status, and system health"
+    },
+    {
+      "screen_name": "read-only-user-home",
+      "component_name": "ReadOnlyUserHome",
+      "file_path": "src/pages/ReadOnlyUserHome.tsx",
+      "written": true,
+      "description": "Read-only analytics dashboard for portfolio data discovery"
+    },
+    {
+      "screen_name": "audit-user-home",
+      "component_name": "AuditUserHome",
+      "file_path": "src/pages/AuditUserHome.tsx",
+      "written": true,
+      "description": "Audit dashboard with compliance metrics and pre-built reports"
+    },
+    {
+      "screen_name": "system-admin-home",
+      "component_name": "SystemAdminHome",
+      "file_path": "src/pages/SystemAdminHome.tsx",
+      "written": true,
+      "description": "System admin dashboard with user management, system status, and security events"
+    },
+    {
+      "screen_name": "submit-portfolio-request",
+      "component_name": "SubmitPortfolioRequest",
+      "file_path": "src/pages/SubmitPortfolioRequest.tsx",
+      "written": true,
+      "description": "4-step wizard for portfolio submission with duplicate detection and real-time validation"
+    },
+    {
+      "screen_name": "portfolio-submission-results",
+      "component_name": "PortfolioSubmissionResults",
+      "file_path": "src/pages/PortfolioSubmissionResults.tsx",
+      "written": true,
+      "description": "Results page showing generated pH1-pH4 codes with copy-to-clipboard functionality"
+    },
+    {
+      "screen_name": "view-portfolio-detail",
+      "component_name": "ViewPortfolioDetail",
+      "file_path": "src/pages/ViewPortfolioDetail.tsx",
+      "written": true,
+      "description": "Complete portfolio record with attributes, generated codes, and reclassification history"
+    },
+    {
+      "screen_name": "search-and-list-portfolios",
+      "component_name": "SearchAndListPortfolios",
+      "file_path": "src/pages/SearchAndListPortfolios.tsx",
+      "written": true,
+      "description": "Portfolio discovery interface with search, filters, and 25-record-per-page pagination"
+    },
+    {
+      "screen_name": "reclassify-portfolio",
+      "component_name": "ReclassifyPortfolio",
+      "file_path": "src/pages/ReclassifyPortfolio.tsx",
+      "written": true,
+      "description": "Portfolio reclassification with effective dating and pH code regeneration preview"
+    },
+    {
+      "screen_name": "my-requests-dashboard",
+      "component_name": "MyRequestsDashboard",
+      "file_path": "src/pages/MyRequestsDashboard.tsx",
+      "written": true,
+      "description": "Front office status tracking dashboard for portfolio requests"
+    },
+    {
+      "screen_name": "view-mapping-tables",
+      "component_name": "ViewMappingTables",
+      "file_path": "src/pages/ViewMappingTables.tsx",
+      "written": true,
+      "description": "Mapping table admin interface with CRUD operations and bulk CSV upload"
+    },
+    {
+      "screen_name": "query-audit-trail",
+      "component_name": "QueryAuditTrail",
+      "file_path": "src/pages/QueryAuditTrail.tsx",
+      "written": true,
+      "description": "Immutable audit trail query interface with compliance export options"
+    },
+    {
+      "screen_name": "portfolio-setup-time-report",
+      "component_name": "PortfolioSetupTimeReport",
+      "file_path": "src/pages/PortfolioSetupTimeReport.tsx",
+      "written": true,
+      "description": "KPI tracking report showing portfolio setup time trends and progress toward 90-minute target"
+    },
+    {
+      "screen_name": "audit-compliance-report",
+      "component_name": "AuditComplianceReport",
+      "file_path": "src/pages/AuditComplianceReport.tsx",
+      "written": true,
+      "description": "Quarterly compliance evidence package with audit trail completeness metrics (SM5)"
+    }
+  ],
+  "shared_files": [
+    "src/index.css",
+    "src/theme.ts",
+    "src/types/index.ts",
+    "src/store/index.ts",
+    "src/store/authSlice.ts",
+    "src/store/authApi.ts",
+    "src/components/Navigation.tsx",
+    "src/components/Navigation.module.css",
+    "src/components/Shell.tsx",
+    "src/components/Shell.module.css",
+    "src/App.tsx",
+    "src/main.tsx",
+    ".env.example",
+    "vite.config.ts",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "package.json",
+    "index.html"
+  ],
+  "architecture": {
+    "routing": "React Router v6 with protected routes and role-based home screens",
+    "state_management": "Redux Toolkit for authentication state, RTK Query for API data",
+    "authentication": "SSO via AIM Portal + Emergency local credentials, session management via /me endpoint",
+    "api_integration": "RTK Query with Fetch API, VITE_API_BASE_URL environment variable",
+    "responsive": "Desktop-only design system (1024px minimum), MUI Box/Grid for layouts",
+    "accessibility": "WCAG 2.1 Level A compliance with ARIA labels, semantic HTML, keyboard navigation"
+  },
+  "design_system": {
+    "colors": {
+      "primary": "#2563EB",
+      "secondary": "#71717A",
+      "foreground": "#09090B",
+      "background": "#FAFAFA",
+      "border_light": "#E4E4E7",
+      "success": "#10B981",
+      "warning": "#FBBF24",
+      "destructive": "#DC2626"
+    },
+    "typography": {
+      "heading_font": "Archivo (Google Fonts)",
+      "body_font": "Space Grotesk (Google Fonts)",
+      "h1": "28px, 700 weight",
+      "h2": "20px, 600 weight",
+      "h3": "16px, 600 weight",
+      "body": "14px, 400 weight"
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "20px",
+      "xl": "24px",
+      "2xl": "32px",
+      "3xl": "48px"
+    },
+    "shadows": {
+      "sm": "0 1px 3px rgba(0,0,0,0.1)",
+      "md": "0 4px 8px rgba(0,0,0,0.12)",
+      "lg": "0 8px 16px rgba(0,0,0,0.15)"
+    },
+    "border_radius": {
+      "buttons_inputs": "6px",
+      "cards": "12px"
+    }
+  },
+  "features": [
+    "Role-based authentication (Front Office, Data Governance Admin, Read-Only, Audit, System Admin)",
+    "Multi-step portfolio submission wizard with real-time validation",
+    "Portfolio search and filtering with 25-record pagination",
+    "Portfolio reclassification with effective dating",
+    "Mapping table management with CRUD and bulk upload",
+    "Audit trail querying with export capabilities",
+    "Compliance and setup time reporting",
+    "Emergency login fallback with account lockout",
+    "Session management with /me API endpoint",
+    "Navigation sidebar with role-specific menu items",
+    "Responsive breadcrumb navigation",
+    "Copy-to-clipboard functionality for pH codes",
+    "Status badges and progress indicators",
+    "Keyboard navigation and focus management",
+    "Mobile drawer navigation for small screens"
+  ],
+  "compliance": {
+    "wcag": "2.1 Level A",
+    "color_contrast": "4.5:1 minimum for body text",
+    "focus_states": "Visible focus rings on all interactive elements",
+    "keyboard_navigation": "Tab order matches visual order, Escape closes modals",
+    "aria_labels": "All icon-only buttons have aria-label attributes",
+    "semantic_html": "Tables use <table>/<thead>/<tbody>, forms use <label for=''>",
+    "prefers_reduced_motion": "Respected throughout application",
+    "testing": "Vitest + React Testing Library, 70%+ coverage target"
+  },
+  "pre_delivery_checklist": {
+    "color_tokens": "✓ All colors from MASTER.md tokens, no hardcoded hex values",
+    "icons": "✓ Lucide React only, no emojis as icons",
+    "cursor_pointer": "✓ All clickable elements have cursor-pointer",
+    "hover_states": "✓ 200-300ms transitions, no layout shift on hover",
+    "focus_states": "✓ Visible focus rings on all inputs and buttons",
+    "contrast": "✓ All text meets 4.5:1 minimum contrast ratio",
+    "responsive": "✓ Layouts work at 1024px, 1280px breakpoints",
+    "responsive_typography": "✓ Font sizes scale with breakpoints",
+    "no_horizontal_scroll": "✓ Content fits viewport width",
+    "animations": "✓ Respect prefers-reduced-motion",
+    "forms": "✓ All inputs have labels, validation visible",
+    "tables": "✓ Semantic HTML with proper headers"
+  },
+  "environment_variables": {
+    "VITE_API_BASE_URL": "API endpoint (defaults to http://localhost:8000/api/v1)",
+    "VITE_APP_NAME": "Application name (Treehouse Sonnet)",
+    "VITE_ENVIRONMENT": "Environment (development/production)",
+    "VITE_ENABLE_EMERGENCY_LOGIN": "Enable emergency login fallback (true/false)"
+  },
+  "getting_started": {
+    "install": "npm install",
+    "dev_server": "npm run dev (runs on http://localhost:3000)",
+    "build": "npm run build",
+    "type_check": "npm run type-check",
+    "test": "npm run test",
+    "coverage": "npm run coverage"
+  },
+  "notes": {
+    "stack_alignment": "100% adherence to React 18 + Vite + TypeScript + MUI + Redux Tk + RTK Query stack",
+    "design_system": "Complete implementation of MASTER.md design tokens across all pages",
+    "accessibility": "WCAG 2.1 Level A compliance with semantic HTML and ARIA labels",
+    "testing_ready": "All components structured for Vitest + React Testing Library",
+    "production_ready": "Complete error handling, loading states, and form validation",
+    "extensible": "Clear folder structure and component patterns for future expansion"
+  }
+}

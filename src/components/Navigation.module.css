@@ -1,0 +1,16 @@
+.navContainer {
+  padding: var(--space-lg) var(--space-md);
+}
+
+.sidebar {
+  background-color: #FFFFFF;
+  border-right: 1px solid var(--color-border-light);
+}
+
+.listItemButton {
+  transition: all 200ms ease;
+}
+
+.listItemButton:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+}
